@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    display: flex;
+    background-color: #0a0814;
+    width: 1200px;
+    height: auto;
+}
+img{
+    height: 650px;
+    width: 1360px;
+}
+#pala{
+    font-family: 'VT323', monospace;
+    position: absolute;
+    left: 50%;
+    bottom: 1%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+    color: #FFCCCC;
+}
+.notiene{
+    font-family: 'VT323', monospace;
+    position: absolute;
+    left: 65%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    font-size: xx-large;
+    color: #CC9999;
+}
+canvas{
+    opacity: 75%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
